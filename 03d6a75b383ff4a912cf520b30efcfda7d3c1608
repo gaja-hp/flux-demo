@@ -1,0 +1,1 @@
+{"jobID":"d5d85e02-7674-46f9-6655-ba19a0a8c44d","spec":{"type":"policy","cause":{"Message":"","User":"Gajanan \u003cgajanan.chandgadkar@hp.com\u003e"},"spec":{"demo:deployment/hello":{"add":{"automated":"true"},"remove":{}}}},"result":null}
