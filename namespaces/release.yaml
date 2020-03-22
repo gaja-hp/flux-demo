@@ -2,7 +2,7 @@ apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
   name: hello
-  namespace: default
+  namespace: fluxcd
 spec:
   releaseName: hello-app
   chart:
