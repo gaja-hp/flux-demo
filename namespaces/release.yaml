@@ -6,7 +6,7 @@ metadata:
 spec:
   releaseName: hello-app
   chart:
-    repository: ssh@github.com:gajadevops/flux-demo.git
+    git: git@github.com:gajadevops/flux-demo.git
     ref: master
     path: chart/hello
 #     repository: https://stefanprodan.github.io/podinfo
