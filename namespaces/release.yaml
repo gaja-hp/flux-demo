@@ -1,0 +1,13 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: hello
+  namespace: default
+spec:
+  releaseName: hello-app
+  chart:
+    repository: https://github.com/gajadevops/flux-demo
+    ref: master
+    path: charts/hello
+  values:
+    replicaCount: 1
