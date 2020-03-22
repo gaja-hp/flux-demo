@@ -8,6 +8,6 @@ spec:
   chart:
     repository: git@github.com:gajadevops/flux-demo.git
     ref: master
-    path: charts/hello
+    path: chart/hello
   values:
     replicaCount: 1
